@@ -41,7 +41,7 @@ class Hospital:
         self.med=raw_input("Enter Prescribed Medicine:")
         self.bill=input("Enter Bill Amount: Rs.")
         self.paymethod=raw_input("Enter Payment Method(Cash/Cheque/Card):")
-        def Output(self):
+ def Output(self):
         print ("SERIAL NUMBER:-"),self.sno
         print ("PATIENT'S NAME:-"),self.name
         print ("PATIENT'S AGE:-"),self.age
