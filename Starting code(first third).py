@@ -31,8 +31,8 @@ class Hospital:
         print ("PATIENT'S SEX:-"),self.sex
         print ("DOCTOR'S NAME:-"),self.doctor
         print ("PRESCRIBED MEDICINES:-"),self.med
-        print ("Known Allergies:-"),self.allergies
+        print ("KNOWN ALLERGIES:-"),self.allergies
         print ("FAVORITE DRINK:-"),self.fdrink
-        print ("Last Known Temp:-"),self.temp
-        print("Preferred Room Temp:-"),self.rtemp
-        print("Pain level:-"),self.plevel
+        print ("LAST KNOWN TEMP:-"),self.temp
+        print("PREFERRED ROOM TEMP:-"),self.rtemp
+        print("PAIN LEVEL:-"),self.plevel
