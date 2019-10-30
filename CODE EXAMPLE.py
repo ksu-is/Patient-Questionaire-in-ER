@@ -57,9 +57,18 @@ def emergencyroomsystem():
                 patient_id = list_patientID[index]
                 occupancy_time = list_occupancy_time[index]
                 print("Age: " , patient_age)
+                print("Sex: " , patient_sex)
+                print("Doctor: ", patient_doctor)
+                print("Medicine: ", patient_med)
+                print("Allergies: ", patient_allergies)
+                print("Favorite Drink: ", patient_fav_drink)
+                print("Temperature: ", patient_temp)
+                print("Pain Level: ", patient_pain_level)
+                print("Heart Rate: ", patient_heart_rate)
+                print("Blood Pressure: ", patient_blood_pressure)
                 print("Blood Type: ", blood_type)
                 print("Patient ID: ", patient_id)
-                print("Waiting Time: ", waiting_time)
+                print("Occupancy Time: ", occupancy_time)
             elif name_or_ID.upper()=="D":
                 patient_id = input("Enter the patinet ID please: ")
                 index = list_patientID.index(patient_id)
@@ -76,10 +85,17 @@ def emergencyroomsystem():
                 patient_blood_pressure = list_blood_pressure[index]  
                 blood_type = list_blood_type[index]
                 occupancy_time = list_occupancy_time[index]
-                blood_type = list_blood_type[index]
-                occupancy_time = list_occupancy_time[index]
                 print("Patient's last name: ", last_name)
                 print("Age: ", patient_age)
+                print("Sex: ", patient_sex)
+                print("Doctor: ", patient_doctor)
+                print("Medicine: ", patient_med)
+                print("Allergies: ", patient_allergies)
+                print("Favorite Drink: ", patient_fav_drink)
+                print("Temperature: ", patient_temp)
+                print("Pain Level: ", patient_pain_level)
+                print("Heart Rate: ", patient_heart_rate)
+                print("Blood Pressure: ", patient_blood_pressure)
                 print("Blood type: ", blood_type)
                 print("Occupancy Time: ", occupancy_time)
             else:
