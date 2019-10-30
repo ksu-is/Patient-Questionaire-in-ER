@@ -11,6 +11,8 @@ class Hospital:
         self.allergies=" "
         self.fdrink=" "
         self.temp=" "
+        self.rtemp=" "
+        
 
     def Input(self):
         self.name=raw_input("Enter Patinet's Name:")
@@ -21,6 +23,7 @@ class Hospital:
         self.allergies=raw_input("Enter Known Allergies:")
         self.fname=raw_input("Enter Favorite Drink:")
         self.temp=raw_input("Enter last known Temperature:")
+        self.rtemp=raw_input("Enter Preferred Room Temperature:)
  def Output(self):
         print ("PATIENT'S NAME:-"),self.name
         print ("PATIENT'S AGE:-"),self.age
@@ -30,4 +33,4 @@ class Hospital:
         print ("Known Allergies:-"),self.allergies
         print ("FAVORITE DRINK:-"),self.fdrink
         print ("Last Known Temp:-"),self.temp
-        
+        print("Preferred Room Temp:-"),self.rtemp
