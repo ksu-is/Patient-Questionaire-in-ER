@@ -13,7 +13,7 @@ list_heart_rate = ["50", "75", "85"]
 list_blood_pressure = ["120", "140", "100"]
 list_blood_type = ["O","A","B"]
 list_occupancy_time = ["48:00:00", "72:36:00", "24:03:00"]
-def emergencyroomsystem():
+def patientquestionaireer():
    
 
 
@@ -220,7 +220,7 @@ Consider alternate methods of care delivery. To ease the burden of high wait tim
         pass
     restart = input("Would you like to start again? Type 'yes' or 'no' ").lower()
     if restart=="yes":
-        emergencyroomsystem()
+        patientquestionaireer()
     else:
         exit()
-emergencyroomsystem()
+patientquestionaireer()
