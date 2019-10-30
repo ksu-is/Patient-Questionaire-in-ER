@@ -2,8 +2,17 @@ from datetime import datetime
 list_patientID = ["4554", "8861", "9254"]
 list_name = [ "Bennet", "Gilbert", "Johnson"]
 list_age = ["18", "21", "45"]
+list_sex = ["Male", "Female", "Male"]
+list_doctor = ["Anand", "Sharon", "Melissa"]
+list_med = ["Cholesterol", "Adderall", "Steriod"]
+list_allergies = ["Nuts", "Chocolate", "Fish"]
+list_fav_drink = ["Coke", "Pwerade", "Sweet Tea"]
+list_temp = ["99", "101", "97"]
+list_pain_level = ["Excrutiating", "Moderate", "None"]
+list_heart_rate = ["50", "75", "85"]
+list_blood_pressure = ["120", "140", "100"]
 list_blood_type = ["O","A","B"]
-list_waiting_time = ["00:56:00", "01:36:00", "02:03:00"]
+list_occupancy_time = ["48:00:00", "72:36:00", "24:03:00"]
 def emergencyroomsystem():
    
 
@@ -35,9 +44,18 @@ def emergencyroomsystem():
                 last_name = input("Enter the last name of the patient: ")
                 index = list_name.index(last_name)
                 patient_age = list_age[index]
+                patient_sex = list_sex[index]
+                patient_doctor = list_doctor[index]
+                patient_med = list_med[index]
+                patient_allergies = list_allergies[index]
+                patient_fav_drink = list_fav_drink[index]
+                patient_temp = list_temp[index]
+                patient_pain_level = list_pain_level[index]
+                patient_heart_rate = list_heart_rate[index]
+                patient_blood_pressure = list_blood_pressure[index]  
                 blood_type = list_blood_type[index]
                 patient_id = list_patientID[index]
-                waiting_time = list_waiting_time[index]
+                occupancy_time = list_occupancy_time[index]
                 print("Age: " , patient_age)
                 print("Blood Type: ", blood_type)
                 print("Patient ID: ", patient_id)
@@ -47,12 +65,23 @@ def emergencyroomsystem():
                 index = list_patientID.index(patient_id)
                 last_name = list_name[index]
                 patient_age = list_age[index]
+                patient_sex = list_sex[index]
+                patient_doctor = list_doctor[index]
+                patient_med = list_med[index]
+                patient_allergies = list_allergies[index]
+                patient_fav_drink = list_fav_drink[index]
+                patient_temp = list_temp[index]
+                patient_pain_level = list_pain_level[index]
+                patient_heart_rate = list_heart_rate[index]
+                patient_blood_pressure = list_blood_pressure[index]  
                 blood_type = list_blood_type[index]
-                waiting_time = list_waiting_time[index]
+                occupancy_time = list_occupancy_time[index]
+                blood_type = list_blood_type[index]
+                occupancy_time = list_occupancy_time[index]
                 print("Patient's last name: ", last_name)
                 print("Age: ", patient_age)
                 print("Blood type: ", blood_type)
-                print("Waiting Time: ", waiting_time)
+                print("Occupancy Time: ", occupancy_time)
             else:
                 print("That is an invalid input, please try again")
                 pass
