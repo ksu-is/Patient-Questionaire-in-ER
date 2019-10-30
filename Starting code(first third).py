@@ -13,6 +13,7 @@ class Hospital:
         self.temp=" "
         self.rtemp=" "
         self.plevel=" "
+        self.hrate=" "
 
     def Input(self):
         self.name=raw_input("Enter Patinet's Name:")
@@ -25,6 +26,7 @@ class Hospital:
         self.temp=raw_input("Enter last known Temperature:")
         self.rtemp=raw_input("Enter Preferred Room Temperature:")
         self.plevel=raw_input("Enter Pain Level:")
+        self.hrate=raw_input("Enter Heart Rate:-")
  def Output(self):
         print ("PATIENT'S NAME:-"),self.name
         print ("PATIENT'S AGE:-"),self.age
@@ -36,3 +38,4 @@ class Hospital:
         print ("LAST KNOWN TEMP:-"),self.temp
         print("PREFERRED ROOM TEMP:-"),self.rtemp
         print("PAIN LEVEL:-"),self.plevel
+        print("HEART RATE:-"),self.hrate
