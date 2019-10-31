@@ -253,10 +253,10 @@ def patientquestionaireer():
                     if (result>delta):
                         print ("""Your average occupancy time is higher than the standard set for the hospital, below are some reccomendations to lower your time here.
 You should schedule surgeries and other non-life-threatening procedures at your preferred hospital.
-Make reducing wait times a part of your hospital’s culture. Healthcare executives must make wait times a priority in their facility. This means they must implement specific policies designed to address problems that can lead to increased wait times, including staffing policies. They must also commit to regularly evaluating their hospitals’ workflow and be willing to invest in solutions to speed up care delivery, including automated systems designed to streamline scheduling.
+Make sure that you are doing the advised physical therapy and taking the correct amounts of medicine to improve your health.
 Consider alternate methods of care such as home care for elderly or home visits from your doctor and/or physical therapist.""")
                     else:
-                        print ("The average waiting time for your emergency room is lower than the standard set for the hospital. Keep up the good work!")
+                        print ("The average occupancy time for your emergency room visit is lower than the standard set for the hospital.")
                         
 
                 else:
