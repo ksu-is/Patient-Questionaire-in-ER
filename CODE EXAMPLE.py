@@ -212,7 +212,7 @@ def patientquestionaireer():
                         pass
             
                 elif option_two.upper()=="B":
-                    print("Enter the new comma separated record like this: 'PatientID,LastName,Age,Bloodtype,waitingtime' ")
+                    print("Enter the new comma separated record like this: 'PatientID,LastName,Age,Sex,Doctor,Medicine,Allergies,FavoriteDrink,Temperature,PainLevel,HeartRate,BloodPressure,Bloodtype,OccupancyTime' ")
                     record = input("Enter a new patient record: ")
                     list_values = record.split(",")
                     list_patientID.append(list_values[0])
