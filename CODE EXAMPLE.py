@@ -147,7 +147,7 @@ def patientquestionaireer():
                 print("You have the clearance to access patient redords, add a patient, or calculate occupancy time.")
                 option_two = input("Enter 'A', 'B' or 'C': ")
                 if option_two.upper()=="A":
-                    name_or_ID = input("Enter 'C' if you would like to seach using a last name or 'D' to search with ID number: ")
+                    name_or_ID = input("Enter 'C' if you would like to search using a last name or 'D' to search with ID number: ")
                     if name_or_ID.upper()=="C":
                         last_name = input("Enter the last name of the patient: ")
                         index = list_name.index(last_name)
