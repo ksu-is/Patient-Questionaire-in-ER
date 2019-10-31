@@ -252,7 +252,7 @@ def patientquestionaireer():
                     delta=timedelta(hours=compare_datetime_object.hour, minutes=compare_datetime_object.minute, seconds=compare_datetime_object.second)
                     if (result>delta):
                         print ("""Your average occupancy time is higher than the standard set for the hospital, below are some reccomendations to lower your time here.
-You should schedule surgeries and other non-life-threatening procedures on days where the hospital’s less likely to have a spike in patient volume due to a busy evening in the Emergency Department.
+You should schedule surgeries and other non-life-threatening procedures at your preferred hospital.
 Make reducing wait times a part of your hospital’s culture. Healthcare executives must make wait times a priority in their facility. This means they must implement specific policies designed to address problems that can lead to increased wait times, including staffing policies. They must also commit to regularly evaluating their hospitals’ workflow and be willing to invest in solutions to speed up care delivery, including automated systems designed to streamline scheduling.
 Consider alternate methods of care such as home care for elderly or home visits from your doctor and/or physical therapist.""")
                     else:
