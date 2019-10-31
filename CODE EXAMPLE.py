@@ -29,7 +29,7 @@ def patientquestionaireer():
     Then: 
     Enter A To search for a patient  
     Enter B To add a new patient record
-    Enter C To calculate the average waiting time of all patients
+    Enter C To calculate the average occupancy time of all patients
         
             """)
 
