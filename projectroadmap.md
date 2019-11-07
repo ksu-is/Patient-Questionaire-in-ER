@@ -1,4 +1,4 @@
-
+# Items to Complete For Project
 - [X] Come up with idea for project and get approved
 - [X] Create Repository
 - [X] Create Readme File
