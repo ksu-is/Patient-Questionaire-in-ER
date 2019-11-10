@@ -8,3 +8,6 @@
 - [X] 7.DONE Run code and fix errors
 - [X] 8.DONE Complete 2/3'ds of code
 - [X] 9.DONE Run code and fix errors
+- [X] 10. Complete final third of code
+- [ ] 11. Run code and fix errors
+- [ ] Decide to put code into excel spreadsheet like scrape or leave it as is
