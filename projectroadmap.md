@@ -10,4 +10,6 @@
 - [X] 9.DONE Run code and fix errors
 - [X] 10. Complete final third of code
 - [ ] 11. Run code and fix errors
-- [ ] Decide to put code into excel spreadsheet like scrape or leave it as is
+- [ ] 12. Decide to put code into excel spreadsheet like scrape or leave it as is in IDLE
+- [ ] 13. Create Power Point for Project
+- [ ] 14. Submit Project
