@@ -12,4 +12,5 @@
 - [ ] 11. Run code and fix errors
 - [ ] 12. Decide to put code into excel spreadsheet like scrape or leave it as is in IDLE
 - [ ] 13. Create Power Point for Project
+- [ ] 15. Put Power Point into Repository
 - [ ] 14. Submit Project
