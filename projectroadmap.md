@@ -8,9 +8,9 @@
 - [X] 7.DONE Run code and fix errors
 - [X] 8.DONE Complete 2/3'ds of code
 - [X] 9.DONE Run code and fix errors
-- [X] 10. Complete final third of code
+- [X] 10.DONE Complete final third of code
 - [ ] 11. Run code and fix errors
-- [ ] 12. Decide to put code into excel spreadsheet like scrape or leave it as is in IDLE
-- [ ] 13. Create Power Point for Project
-- [ ] 15. Put Power Point into Repository
+- [X] 12.DONE Decide to put patient info in excel spreadsheet like scrape or just pull it up and run in IDLE = I left as is and run in IDLE
+- [X] 13.DONE Create Power Point for Project
+- [X] 15.DONE Put Power Point into Repository
 - [ ] 14. Submit Project
