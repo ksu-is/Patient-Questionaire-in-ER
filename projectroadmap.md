@@ -5,11 +5,11 @@
 - [X] 4.DONE Create Project Road Map
 - [X] 5.DONE Find Existing Code/repository to use for Project
 - [X] 6.DONE Complete first third of coding
-- [X] 7.DONE Run code and fix errors
+- [X] 7.DONE Run code and fix errors for first third
 - [X] 8.DONE Complete 2/3'ds of code
-- [X] 9.DONE Run code and fix errors
+- [X] 9.DONE Run code and fix errors for 2/3'ds
 - [X] 10.DONE Complete final third of code
-- [ ] 11. Run code and fix errors
+- [ ] 11. Run code and fix errors for final third
 - [X] 12.DONE Decide to put patient info in excel spreadsheet like scrape or just pull it up and run in IDLE = I left as is and run in IDLE
 - [X] 13.DONE Create Power Point for Project
 - [X] 15.DONE Put Power Point into Repository
