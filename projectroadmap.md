@@ -9,8 +9,10 @@
 - [X] 8.DONE Complete 2/3'ds of code
 - [X] 9.DONE Run code and fix errors for 2/3'ds
 - [X] 10.DONE Complete final third of code
-- [ ] 11. Run code and fix errors for final third
-- [X] 12.DONE Decide to put patient info in excel spreadsheet like scrape or just pull it up and run in IDLE = I left as is and run in IDLE
-- [X] 13.DONE Create Power Point for Project
-- [X] 15.DONE Put Power Point into Repository
-- [ ] 14. Submit Project
+- [X] 11.DONE Run code and fix errors
+- [X] 12.DONE Post finished code here and name finished code
+- [X] 13.DONE(LEAVING IN IDLE/VISUAL STUDIO) Decide to put code into excel spreadsheet like scrape or leave it as is in IDLE
+- [X] 14.DONE Create Power Point slide for Project
+- [X] 15.DONE Submit Project on Github as Finished Code
+- [ ] 16. Create video presentation on project
+- [ ] 17. Submit video presentation on D2L
